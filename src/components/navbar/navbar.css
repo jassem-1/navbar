@@ -64,6 +64,7 @@
   
   .dropdown {
     position: relative;
+    z-index: 9;
   }
   
   .dropdown a {
@@ -118,11 +119,11 @@
     text-decoration: none;
   }
   nav{
-    
+    position: fixed;
     
     width: 100%;
     margin-top:1.8%;
-    
+    z-index: 2;
     
     background: #2b465f;
   }
@@ -459,11 +460,30 @@
     opacity: 0;
     pointer-events: none;
   }
-  
+  .mega-box  {
+    animation: slideDown 0.4s ease-in-out;
+  }
+  .mega-box2  {
+    animation: slideDown 0.4s ease-in-out;
+  }
+  .mega-box3  {
+    animation: slideDown 0.4s ease-in-out;
+  }
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   
 @media screen and (max-width: 950px) {
     nav {
         height: 80px; /* Reset the height to auto */
+      margin-top: 4%;
       }
     .first-navlink {
         margin-top: 20px; /* Adjust the value as needed */
@@ -517,7 +537,7 @@
     }
     .wrapper .logo {
         position: absolute;
-    top: 15%;
+    top: 12%;
     transform: translateY(-50%);
     left: 10px;
     z-index: 9;
