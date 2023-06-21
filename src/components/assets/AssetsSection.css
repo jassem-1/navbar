@@ -1,17 +1,24 @@
 .container {
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
   }
   
   .item1 {
+   
     flex: 1;
     padding: 20px;
     text-align: start;
+    z-index: 1;
+    
    
   }
   .item1 p {
     text-align: start;
+    font-size:smaller;
+    color: rgb(84, 78, 78);
   }
   .h3_tit {
       font-weight: 800;
@@ -19,18 +26,21 @@
       line-height: 50px;
       margin-bottom: 5px;
       font-family: 'Enriqueta', arial, serif; 
-      color: #0d054d
+      color: #16054d
   }  
   .span{
-      font-family: 'Open Sans', sans-serif; font-size: 20px;  margin: 0 0 16px;
-  }
-  
-  
+      font-family: 'Open Sans', sans-serif; font-size: 18px;  margin: 0 0 16px;
+      
+    }
+
   
   .list {
       
       width: 600px;
       max-width: 90%;
+     
+     
+      
       
   }
   
@@ -42,8 +52,34 @@
       font-size: 1.1rem;
       line-height: 1.375;
       position: relative;
+      margin-bottom: 0;
+      
+  }
+  li.item {
+    margin-bottom: 15px; /* Adjust the margin as per your preference */
+    padding-bottom: 5px; /* Adjust the padding as per your preference */
+    position: relative;
+    padding-left: 20px; /* Adjust the padding as per your preference */
+    margin-bottom: 10px; 
+   
+  }
+  ul.list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+ 
+
+  li.item:before {
+    content: "➤"; /* You can change this to any arrow or symbol you prefer */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgb(92, 160, 224);
+    font-size: 14px;
   }
   
+ 
   
   
   /* Demo styles */
@@ -91,6 +127,7 @@
         flex-direction: column; /* Set flex-direction to column */
         justify-content: center;
         align-items: center;
+        z-index: 1;
       }
       .h3_tit, .span {
         font-size: 14px;

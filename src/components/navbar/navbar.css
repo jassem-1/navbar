@@ -119,9 +119,10 @@
   }
   nav{
     
-   
+    
     width: 100%;
     margin-top:1.8%;
+    
     
     background: #2b465f;
   }
@@ -136,7 +137,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: auto;
+    z-index: 99;
   }
   .wrapper .logo a{
     color: #f2f2f2;
@@ -151,6 +152,7 @@
   .wrapper .nav-links{
     display: inline-flex;
     margin-right: 20%;
+    z-index: 99;
   }
   .nav-links li{
     list-style: none;
@@ -177,10 +179,11 @@
     left: 0;
     width: 100%;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f3f3f3;
     display: none;
     z-index: 2;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 99;
   }
  
   
@@ -189,6 +192,7 @@
   .mega-box .content {
     display: flex;
     justify-content: space-between;
+    z-index: 99;
  
  
   }
@@ -204,6 +208,7 @@
   .mega-box .row {
     flex-basis: 33%;
     padding: 10px;
+    z-index: 99;
   }
   
   .mega-box header {
@@ -251,7 +256,7 @@
         padding: 20px;
         background-color: #fff;
         display: none;
-        z-index: 2;
+        z-index: 99;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         opacity: 0;
         visibility: hidden;
@@ -476,7 +481,7 @@
         flex: 1;
         width: 100%;
         max-width:100%;
-        
+        z-index: 99;
         background-color: #ffffff;
         top:12%;
         left:-100%;
@@ -502,6 +507,7 @@
         display: flex; /* Add flexbox to the wrapper */
         align-items: center; /* Center align items vertically */
         position: relative;
+        
        
       }
     .nav-links li a{

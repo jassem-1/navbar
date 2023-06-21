@@ -829,6 +829,7 @@ const AssetsSection = () => {
                   background:
                     selectedButton === "Stocks" ? "darkblue" : "transparent",
                   color: selectedButton === "Stocks" ? "white" : "black",
+                  
                 }}
               />
               <Button
@@ -884,7 +885,7 @@ const AssetsSection = () => {
                   return <span style={{ color: color }}>{rowData["4"]}</span>;
                 }}
               />
-            </DataTable>
+            </DataTable>  
           </div>
         </div>
       </div>
