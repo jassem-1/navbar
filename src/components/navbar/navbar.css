@@ -483,7 +483,7 @@
 @media screen and (max-width: 950px) {
     nav {
         height: 80px; /* Reset the height to auto */
-      margin-top: 4%;
+      margin-top: 2%;
       }
     .first-navlink {
         margin-top: 20px; /* Adjust the value as needed */
@@ -648,4 +648,10 @@
           transform: translateY(0);
         }
       }
+}
+@media screen and (min-height: 739px) and (max-height: 960px) {
+  .wrapper .nav-links {
+    margin-top: -3%;
+
+  }
 }

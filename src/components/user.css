@@ -1,0 +1,85 @@
+
+.containerUser  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    padding-top: 25px;
+  }
+  .titleUser {
+    margin-top: 3%;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 5px;
+    font-family: 'Enriqueta', arial, serif; 
+    color: #16054d
+  }
+  .textUser {
+    font-size: 20px;
+    margin-bottom: 0px;
+    max-width: 50%;
+    margin-left: 0%;
+    margin-top: 2%;
+  }
+  .tableUser {
+    display: flex;
+    width: 40%;
+    height: 13%;
+    justify-content: center;
+    margin-left:0% ;
+    margin-top: 5%;
+    margin-bottom:10% ;
+  }
+  .columnU {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .columnU:hover {
+    background-color: #4d84ae;
+  }
+  .columnU:nth-child(1) .imageU {
+    width: auto; /* Adjust the width of the third image */
+    height: 35%; /* Adjust the height of the third image */
+  }
+  .columnU:nth-child(3) .imageU {
+    width: auto; /* Adjust the width of the third image */
+    height: 50%; /* Adjust the height of the third image */
+  }
+  .columnU:nth-child(2) .imageU {
+    width: auto; /* Adjust the width of the third image */
+    height: 50%; /* Adjust the height of the third image */
+  }
+  .columnU:hover .imageU {
+    background-color: #ffffff; /* Adjust the background color of the image on hover */
+  }
+  
+  .columnU:hover .labelUser {
+    color: #ffffff; /* Adjust the text color of the label on hover */
+  }
+
+  
+  .imageU {
+    width: 80px;
+    height: 80px;
+    margin-top: 5%;
+  }
+  .labelUser {
+    font-weight:500;
+    font-size: 20x;
+    color: #3f54b1;
+    margin-top: 4%;
+  }
+  @media (max-width: 960px) {
+    
+    .containerUser {
+      flex-direction: column;
+    }
+}
