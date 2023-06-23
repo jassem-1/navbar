@@ -64,7 +64,14 @@
   .columnU:hover .labelUser {
     color: #ffffff; /* Adjust the text color of the label on hover */
   }
-
+ .columnU .webIcon {
+    color: rgb(0, 140, 255); /* Example color */
+    font-size: 24px; /* Example font size */
+  }
+  .columnU:hover .webIcon {
+    color: #ffffff; /* Adjust the background color of the image on hover */
+  }
+  
   
   .imageU {
     width: 80px;
@@ -83,7 +90,4 @@
         margin-bottom: 10%;
       flex-direction: column;
     }
-}
-@media screen and (min-width: 300px) and (max-width: 800px){
-    
 }

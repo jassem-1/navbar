@@ -6,10 +6,11 @@
     width: 100%; /* Adjust the width as needed */
     padding: 20px; /* Adjust the padding as needed */
     background-color: #ffffff; /* Optional: Add a background color */
+    height: 40vh;
     
     
   }
-  
+ 
   
   .step {
     display: flex;
@@ -28,7 +29,6 @@
   }
   
   .steps .arrow {
-   
     font-size:300%;
     color: rgb(14, 83, 129);
   }     
@@ -56,6 +56,8 @@
   .center-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
+
   }
   
   .start-trading-btn {
@@ -67,6 +69,7 @@
     border: none;
     font-size: 150%;
     margin-top: 3%;
+   
     font-weight: 300;
     
   }
@@ -83,4 +86,42 @@
     display: flex;
     align-items: center;
     
+  }
+
+  @media (max-width: 960px) {
+    .step-container {
+       flex-direction: column;
+       align-items: start;
+       margin-top: 25%;
+       max-width: 150%;
+       margin-left: 15%;
+        
+      }
+      .steps h1 {
+        margin-bottom:-15% ;
+      }
+      .step {
+        margin-top:10%;
+        flex-direction: row;
+        line-height: 130%;
+        
+      }
+      .step-text{
+        max-width: 60%;
+      }
+      .step p {
+        width: 200%;
+      }
+      .steps .arrow {
+        display: none;
+        
+      } 
+      .center-container {
+        
+        margin-top: 15%;
+
+    
+      }
+     
+      
   }

@@ -1,4 +1,6 @@
 import "./user.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAndroid, faApple } from '@fortawesome/free-brands-svg-icons'
 function User() {
   return (
     <div class="containerUser">
@@ -18,11 +20,12 @@ function User() {
           <div class="labelUser">WebTrader</div>
         </div>
         <div class="columnU">
-          <img class="imageU" src="apple.png" alt="Image 2" />
-          <div class="labelUser">iPhone</div>
+        { /* <img class="imageU" src="apple.png" alt="Image 2" /> */ }
+        <FontAwesomeIcon icon={faApple} className="webIcon"/> 
+         <div class="labelUser">iPhone</div>
         </div>
         <div class="columnU">
-          <img class="imageU" src="android.png" alt="Image 3" />
+        <FontAwesomeIcon icon={faAndroid} className="webIcon"/>
           <div class="labelUser">Android</div>
         </div>
       </div>
