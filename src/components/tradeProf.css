@@ -1,0 +1,115 @@
+.containerProf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(58, 111, 151, 0.789);
+    height: 60vh;
+    margin-top: -6%;
+  }
+  
+  .infosProf {
+    flex: 1;
+    padding: 20px;
+    text-align: start;
+    margin-left: 8%;
+  }
+  .imgProf-holder {
+    margin-right: 17%;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .imgProf-holder img {
+    max-width: 100%;
+    height: auto;
+  }
+  .titleProf {
+    font-size: 24px; 
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .infosProf h6 {
+    font-size: 20px; 
+    font-weight: 300;
+    color: #ffffff;
+  }
+  
+  
+ 
+  
+
+  
+  .listProf {
+    list-style: none;
+    padding:0%
+  }
+  
+  .itemProf {
+    margin-bottom: 10px;
+  }
+  
+  .buttonsProf {
+    margin-top: 20px;
+    
+  }
+ 
+  
+  .btnProf {
+    font-size: larger;
+    padding: 10px 20px; /* Adjust the padding as desired */
+    border-radius: 15px; /* Adjust the border radius for rounded edges */
+    background-color: transparent;
+    border: 2px solid #ffffff; /* Set the border color to white */
+    color: #ffffff; /* Adjust the text color */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .btnProf:hover {
+    background-color: #007bff; /* Adjust the hover background color */
+    cursor: pointer;
+  }
+  
+  .listProf .itemProf::before {
+    content: "\2713"; /* Unicode for tick symbol */
+    display: inline-block;
+    width: 1em; /* Adjust the width as needed */
+    margin-right: 0.5em; /* Adjust the spacing between the tick symbol and text */
+  }
+  .listProf{
+    color: #ffffff;
+  }
+
+  @media screen and (max-width: 950px){
+    .containerProf {
+        display: flex;
+        flex-direction: column; /* Set flex-direction to column */
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+      }
+      .imgProf-holder {
+        margin-right: 1%;
+        width: 35%;
+        margin-bottom: 4%;
+       
+      }
+      .btnProf:hover {
+        background-color: #007bff; /* Adjust the hover background color */
+        cursor: pointer;
+      }
+      
+      
+
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 800px){
+    .containerProf {
+        display: flex;
+        flex-direction: column; /* Set flex-direction to column */
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        margin-top:20% ;
+      }
+  }

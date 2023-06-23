@@ -747,20 +747,23 @@ const AssetsSection = () => {
           worry-free.
         </p>
       </div>
-      <div class="item1">
-        <div>
-          <div className="p-inputgroup">
-            <span className="p-inputgroup-addon">
-              <i className="pi pi-search" />
-            </span>
-            <InputText
-              type="text"
-              placeholder="Search..."
-              value={globalFilter}
-              onChange={handleGlobalFilter}
-            />
+      <div class="item2">
+        <div className="righSide">
+          <div className="searchBar">
+            <div className="p-inputgroup">
+              <span className="p-inputgroup-addon">
+                <i className="pi pi-search" />
+              </span>
+              <InputText
+                type="text"
+                placeholder="Search..."
+                value={globalFilter}
+                onChange={handleGlobalFilter}
+              />
+            </div>
           </div>
-          <div>
+
+          <div className="tableau">
             <div className="button-container">
               <Button
                 label="Most Popular"
@@ -829,7 +832,6 @@ const AssetsSection = () => {
                   background:
                     selectedButton === "Stocks" ? "darkblue" : "transparent",
                   color: selectedButton === "Stocks" ? "white" : "black",
-                  
                 }}
               />
               <Button
@@ -885,7 +887,7 @@ const AssetsSection = () => {
                   return <span style={{ color: color }}>{rowData["4"]}</span>;
                 }}
               />
-            </DataTable>  
+            </DataTable>
           </div>
         </div>
       </div>

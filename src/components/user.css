@@ -80,6 +80,10 @@
   @media (max-width: 960px) {
     
     .containerUser {
+        margin-bottom: 10%;
       flex-direction: column;
     }
+}
+@media screen and (min-width: 300px) and (max-width: 800px){
+    
 }
