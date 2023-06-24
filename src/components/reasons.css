@@ -50,7 +50,7 @@
     margin-left: -20%;
     margin-right: 100%;
   }
- /* @media (max-width: 950px) {
+  @media (max-width: 950px) {
     .reasons-row {
      
       flex-wrap: wrap;
@@ -64,8 +64,8 @@
         
       position: absolute;
       top: 2%;
-      left: 10%; /
-      letter-spacing:2px;
+      left: 10%; 
+      
       
       
       }
@@ -74,10 +74,22 @@
   @media (max-width: 576px) {
     .reasons-row {
       flex-wrap: wrap;
+      margin-top: 30%;
     }
     
     .reason {
       flex-basis: 50%;
       max-width: 50%;
     }
-  }*/
+    .reasons-title {
+        font-size: 35px;
+     color: aliceblue;
+      position: absolute;
+      top: 0%; /* Adjust the desired vertical position */
+      margin-top: 5%;
+     
+     
+      letter-spacing:2px;
+      
+      }
+}

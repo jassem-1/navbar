@@ -482,6 +482,9 @@
   }
   
 @media screen and (max-width: 950px) {
+  .menu-icon svg {
+    color: white;
+  }
     nav {
         height: 80px; /* Reset the height to auto */
       margin-top: 2%;
@@ -504,7 +507,7 @@
         max-width:100%;
         z-index: 99;
         background-color: #ffffff;
-        top:12%;
+        top:17%;
         left:-100%;
         overflow-y:auto;
         line-height: 70px;
@@ -538,7 +541,7 @@
     }
     .wrapper .logo {
         position: absolute;
-    top: 12%;
+    top: 10%;
     transform: translateY(-50%);
     left: 10px;
     z-index: 9;

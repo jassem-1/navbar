@@ -143,7 +143,7 @@
       max-width:fit-content;
       align-self: start;
     }
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 1500px){
       .container {
         display: flex;
         flex-direction: column; /* Set flex-direction to column */
@@ -163,7 +163,7 @@
         font-size: 12px;
       }
       .item1{
-        max-width: 100%;
+        max-width: 70%;
       }
       .item2 {
         margin-left: 15%;
@@ -172,6 +172,8 @@
       .righSide{
         margin-top: 4%;
         margin-bottom: 10%;
+        width: 50%;
+        margin-left:20% ;
       }
       .item1 p {
         margin-left: 10%;

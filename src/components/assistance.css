@@ -1,52 +1,81 @@
 .assis-container {
     display: flex;
-    margin-top:5% ;
+    margin-top:0% ;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(70, 166, 211);
+    
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
   }
+  
+  .assis-container.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
  
   .need {
-    flex-direction: row;
+    margin-top: 2%;
     width: 50%;
     font-size: 18px;
+    align-items: center;
+    margin-right: 0%;
   }
   .assistance-sentence {
- 
+   
+    color: aliceblue;
     font-size: 50px;
-    margin-bottom: 20%;
+   
   }
   
   .support-button {
     border: 2px solid white;
     background-color: transparent;
-    color: blue;
-    border: 2px solid rgb(24, 22, 22);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     cursor: pointer;
     margin-left: 10%;
-    padding: 2% 10%;
+    padding: 1% 8%;
+    border-radius: 15px;
+   font-weight:700;
+   letter-spacing: 2px;
+  
+
     
   }
+  .msg-icon {
+    margin-left: 5px; /* Adjust the margin as desired */
+  }
+  
   
   .support-button:hover {
-    background-color: blue;
-    color: white;
+    background-color: rgb(248, 250, 248);
+    color:rgb(91, 179, 219);
   }
   
   .scroll-back-container {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   
   .scroll-back-button {
+    color: aliceblue;
+    margin-top: -5%;
+    border: none;
     display: flex;
     align-items: center;
     background-color: transparent;
-    
+    font-size: larger;
     cursor: pointer;
     padding: 27px 30px;
+    transition: transform 0.3s ease;
   }
   .scroll-back-button:hover {
-    background-color: rgb(182, 182, 199);
+    background-color: transparent;
     color: white;
+   
+    transform: scale(1.1);
   }
   .scroll-back-text {
     margin-right: 5px;
@@ -56,4 +85,16 @@
   .arrowTop {
     margin-left: 5px;
   }
-  
+  @media (max-width:950px) {
+   .need{
+    margin-right: -10%;
+    flex-direction: column;
+   }
+  }
+  @media (max-width: 576px)
+  {
+    .need{
+     margin-right: 10%;
+     flex-direction: column;
+    }
+   }
