@@ -773,7 +773,7 @@ const AssetsSection = () => {
                   background:
                     selectedButton === "Most Popular"
                       ? "darkblue"
-                      : "transparent",
+                      : "white",
                   color: selectedButton === "Most Popular" ? "white" : "black",
                 }}
               />
@@ -785,7 +785,7 @@ const AssetsSection = () => {
                   background:
                     selectedButton === "Risers & Fallers"
                       ? "darkblue"
-                      : "transparent",
+                      : "white",
                   color:
                     selectedButton === "Risers & Fallers" ? "white" : "black",
                 }}
@@ -796,7 +796,7 @@ const AssetsSection = () => {
                 className="p-button-secondary"
                 style={{
                   background:
-                    selectedButton === "Forex" ? "darkblue" : "transparent",
+                    selectedButton === "Forex" ? "darkblue" : "white",
                   color: selectedButton === "Forex" ? "white" : "black",
                 }}
               />
@@ -808,7 +808,7 @@ const AssetsSection = () => {
                   background:
                     selectedButton === "Commodities"
                       ? "darkblue"
-                      : "transparent",
+                      : "white",
                   color: selectedButton === "Commodities" ? "white" : "black",
                 }}
               />
@@ -820,7 +820,7 @@ const AssetsSection = () => {
                 className="p-button-secondary"
                 style={{
                   background:
-                    selectedButton === "Indice" ? "darkblue" : "transparent",
+                    selectedButton === "Indice" ? "darkblue" : "white",
                   color: selectedButton === "Indice" ? "white" : "black",
                 }}
               />
@@ -830,7 +830,7 @@ const AssetsSection = () => {
                 className="p-button-secondary"
                 style={{
                   background:
-                    selectedButton === "Stocks" ? "darkblue" : "transparent",
+                    selectedButton === "Stocks" ? "darkblue" : "white",
                   color: selectedButton === "Stocks" ? "white" : "black",
                 }}
               />
@@ -840,7 +840,7 @@ const AssetsSection = () => {
                 className="p-button-secondary"
                 style={{
                   background:
-                    selectedButton === "Crypto" ? "darkblue" : "transparent",
+                    selectedButton === "Crypto" ? "darkblue" : "white",
                   color: selectedButton === "Crypto" ? "white" : "black",
                 }}
               />

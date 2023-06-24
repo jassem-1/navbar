@@ -1,0 +1,59 @@
+.assis-container {
+    display: flex;
+    margin-top:5% ;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .need {
+    flex-direction: row;
+    width: 50%;
+    font-size: 18px;
+  }
+  .assistance-sentence {
+ 
+    font-size: 50px;
+    margin-bottom: 20%;
+  }
+  
+  .support-button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: blue;
+    border: 2px solid rgb(24, 22, 22);
+    cursor: pointer;
+    margin-left: 10%;
+    padding: 2% 10%;
+    
+  }
+  
+  .support-button:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  .scroll-back-container {
+    margin-top: 50px;
+  }
+  
+  .scroll-back-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    
+    cursor: pointer;
+    padding: 27px 30px;
+  }
+  .scroll-back-button:hover {
+    background-color: rgb(182, 182, 199);
+    color: white;
+  }
+  .scroll-back-text {
+    margin-right: 5px;
+    font-size: larger;
+  }
+  
+  .arrowTop {
+    margin-left: 5px;
+  }
+  

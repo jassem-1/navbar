@@ -4,6 +4,8 @@ import Forex from "./components/forex";
 import User from "./components/user";
 import TradeProf from "./components/tradeProf";
 import TradingSteps from "./components/tradingSteps";
+import ReasonsComponent from "./components/reasons";
+import Assistance from "./components/assistance";
 
 
 
@@ -16,6 +18,8 @@ function App() {
     <User/>
     <TradeProf/>
     <TradingSteps/>
+    <ReasonsComponent/>
+    <Assistance/>
     </div>
     
   

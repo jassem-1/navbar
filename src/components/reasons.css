@@ -1,0 +1,83 @@
+.reasons-container {
+    text-align: center;
+    position: relative;
+    background-color: rgb(42, 63, 107);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  
+  .reasons-title {
+    font-size: 35px;
+ color: aliceblue;
+  position: absolute;
+  top: 20%; /* Adjust the desired vertical position */
+  left: 30%; /* Adjust the desired horizontal position */
+  letter-spacing:2px;
+  
+  }
+  
+  .reasons-row {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    margin-left: -5%;
+  }
+  
+  .reason {
+    
+    flex: 1;
+    text-align: center;
+    margin: 25px 15px; /* Adjust the margin value as needed */
+   max-width: 70%;
+    margin-left: 10%;
+
+  }
+  
+  .reason-icon {
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 10px; /* Adjust the margin-bottom value as needed */
+  }
+  
+  .reason p {
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    width: 140%;
+    margin-top: 10%;
+    margin-left: -20%;
+    margin-right: 100%;
+  }
+ /* @media (max-width: 950px) {
+    .reasons-row {
+     
+      flex-wrap: wrap;
+    }
+    
+    .reason {
+      flex-basis: 33%;
+      max-width: 33%;
+    }
+    .reasons-title {
+        
+      position: absolute;
+      top: 2%;
+      left: 10%; /
+      letter-spacing:2px;
+      
+      
+      }
+  }
+  
+  @media (max-width: 576px) {
+    .reasons-row {
+      flex-wrap: wrap;
+    }
+    
+    .reason {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }*/

@@ -5,6 +5,7 @@
     z-index: 1;
     margin-top: 4%;
     justify-content: space-between;
+    background-color: rgb(252, 248, 244);
   }
   
   .item1 {
@@ -123,6 +124,7 @@
     }
     .button-container button {
       border-radius: 0;
+      
     }
     .second-row button {
       border-radius: 0;
