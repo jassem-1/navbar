@@ -1,19 +1,23 @@
 .assis-container {
     display: flex;
-    margin-top:0% ;
+   
     flex-direction: column;
     align-items: center;
     background-color: rgb(70, 166, 211);
     
     opacity: 0;
     transform: translateX(100%);
-    transition: opacity 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
   
   .assis-container.visible {
     opacity: 1;
     transform: translateX(0);
   }
+  .wrapperAssistance {
+    overflow-x: hidden;
+  }
+  
 
  
   .need {
@@ -21,7 +25,7 @@
     width: 50%;
     font-size: 18px;
     align-items: center;
-    margin-right: 0%;
+   
   }
   .assistance-sentence {
    

@@ -36,6 +36,7 @@ function Assistance (){
   }, []);
 
   return (
+    <div className='wrapperAssistance'> 
     <div  className={`assis-container ${isVisible ? 'visible' : ''}`}
     ref={containerRef}>
     <div className='need'>
@@ -51,6 +52,7 @@ function Assistance (){
           <span className="arrowTop">▲</span>
         </button>
       </div>
+    </div>
     </div>
   );
 };

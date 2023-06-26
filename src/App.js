@@ -14,6 +14,8 @@ import AdditionalInfo from "./components/additionalInfos";
 
 
 
+
+
 function App() {
   return (
     <div>
@@ -22,11 +24,13 @@ function App() {
     <AssetsSection/>
     <User/>
     <TradeProf/>
+    
     <TradingSteps/>
     <ReasonsComponent/>
     <MarketNews/>
     <Assistance/>
     <AdditionalInfo/>
+    
     
    
     
